@@ -85,8 +85,6 @@ sudo snap install --classic certbot
 Request the SSL certificate. Choose the domain that the certificate is to be issued for, domain name will be looked up from nginx.conf.
 
 ```
-![Project10conclude](https://user-images.githubusercontent.com/41236641/130811145-bc73754e-e527-4468-90cd-d543a02be501.JPG)
-
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx
 ```
